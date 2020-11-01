@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/normalize.css" type="text/css">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <title>Cahee</title>
+</head>
+
+<body style="background: #fff url('img/bg-header.jpg') no-repeat top center / 1500px 1000px">
+<header class="header">
+  <h1 class="visually-hidden">Cahee</h1>
+  <nav class="header__nav">
+    <h2 class="visually-hidden">Main navigation</h2>
+    <a class="header__logo logo" href="index.html">Cahee</a>
+
+    <ul class="nav__menu">
+      <li class="menu__item">
+        <a class="menu__link menu__link--current">Home</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="index.html#about-us">About</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="index.html#services">Services</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="index.html#gallery">Gallery</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="index.html#blog">Blog</a>
+      </li>
+      <li class="menu__item">
+        <a class="menu__link" href="index.html#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <h1 class="visually-hidden">Main information</h1>
+
+  <section class="promo container">
+    <h2 class="promo__title">Fresh life</h2>
+    <p class="promo__text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    <a class="promo__btn btn" href="#">Get free now</a>
+  </section>
+
+  <section class="about" id="about-us">
+    <div class="container about__container">
+      <img class="about__image" src="img/plate-of-raspberries.png" alt="Plate with raspberry">
+      <h2 class="about__title">About us</h2>
+      <p class="about__text">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum.
+        <br><br>
+        Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
+    </div>
+  </section>
+
+  <section class="services" id="services">
+    <div class="container services__container"
+         style="background: url('img/tomatos.png') no-repeat 830px center / 462px 527px">
+      <h2 class="services__title title">Our services</h2>
+      <ul class="services__list">
+        <li class="services__item">
+          <a href="#" class="services__link">
+            <p class="services__text">Online Shopping</p>
+            <span class="services__icon icon-cart"></span>
+          </a>
+        </li>
+        <li class="services__item">
+          <a href="#" class="services__link">
+            <p class="services__text">Quality Product</p>
+            <span class="services__icon icon-greenpeace"></span>
+          </a>
+        </li>
+        <li class="services__item">
+          <a href="#" class="services__link">
+            <p class="services__text">Domestic & International Delivery</p>
+            <span class="services__icon icon-planet"></span>
+          </a>
+        </li>
+        <li class="services__item">
+          <a href="#" class="services__link">
+            <p class="services__text">Well Organized</p>
+            <span class="services__icon icon-carrot"></span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <div class="container gallery__container">
+      <h2 class="gallery__title">Gallery</h2>
+      <p class="gallery__text">Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <ul class="gallery__list">
+        <li class="gallery__item gallery__item--large"
+            style="background: url('img/peaches.jpg')
+            no-repeat center / cover">
+          <a href="#" class="gallery__link"></a>
+        </li>
+        <li class="gallery__item gallery__item--small"
+            style="background: url('img/blueberries.jpg')
+            no-repeat center / cover">
+          <a href="#" class="gallery__link"></a>
+        </li>
+        <li class="gallery__item gallery__item--small"
+            style="background: url('img/blackberry.jpg')
+            no-repeat center / cover">
+          <a href="#" class="gallery__link"></a>
+        </li>
+        <li class="gallery__item gallery__item--medium"
+            style="background: url('img/plate.jpg')
+            no-repeat center / cover">
+          <a href="#" class="gallery__link"></a>
+        </li>
+        <li class="gallery__item gallery__item--medium"
+            style="background: url('img/persimmon.jpg')
+            no-repeat center / cover">
+          <a href="#" class="gallery__link"></a>
+        </li>
+      </ul>
+      <a href="#" class="gallery__btn btn">View more</a>
+    </div>
+  </section>
+
+  <section class="subscribe">
+    <div class="container subscribe__container"
+         style="background: url('img/bg-subscribe.png') no-repeat right center / 560px 390px">
+      <h2 class="subscribe__title title">Subscribe to us</h2>
+      <p class="subscribe__text">
+        Dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+      </p>
+      <form action="/" class="subscribe__form" method="get">
+        <label>
+          <input class="subscribe__form__input"
+                 type="email" name="email"
+                 placeholder="Your email address..." required>
+        </label>
+        <button class="subscribe__btn btn" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="blog" id="blog">
+    <div class="container blog__container">
+      <h2 class="blog__title">Blog</h2>
+      <p class="blog__text">Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+      <ul class="blog__list">
+        <li class="list__item">
+          <img class="item__image" src="img/bg-1.jpg" alt="Cocktail" width="388" height="328">
+          <a href="#" class="item__link">
+            <time class="item__time" datetime="2020-10-22 00:00:00">
+              <span class="item__time--bold">22</span>
+              <span class="item__time--heavy">nov</span>
+            </time>
+            <h3 class="item__title">
+              Green Smoothies: Too Much of a Good Thing?
+            </h3>
+            <p class="item__comment">By
+              <span class="comment__author">Auskteez</span>-
+              <time class="comment__time" datetime="2020-10-22 19:00:00">
+                2 hours ago
+              </time>
+            </p>
+          </a>
+        </li>
+        <li class="list__item">
+          <img class="item__image" src="img/bg-2.jpg" alt="Soup" width="378" height="318">
+          <a href="#" class="item__link">
+            <time class="item__time" datetime="2020-10-14 00:00:00">
+              <span class="item__time--bold">14</span>
+              <span class="item__time--heavy">nov</span>
+            </time>
+            <h3 class="item__title">
+              Growing Food and a “Thirst” for Innovation
+            </h3>
+            <p class="item__comment">By
+              <span class="comment__author">Auskteez</span>-
+              <time class="comment__time" datetime="2020-10-22 18:00:00">
+                3 hours ago
+              </time>
+            </p>
+          </a>
+        </li>
+        <li class="list__item">
+          <img class="item__image" src="img/bg-3.jpg" alt="Raspberries" width="378" height="318">
+          <a href="#" class="item__link">
+            <time class="item__time" datetime="2020-10-10 00:00:00">
+              <span class="item__time--bold">10</span>
+              <span class="item__time--heavy">nov</span>
+            </time>
+            <h3 class="item__title">
+              Pesticides & Food: What You Need to Know
+            </h3>
+            <p class="item__comment">By
+              <span class="comment__author">Auskteez</span>-
+              <time class="comment__time" datetime="2020-10-22 15:00:00">
+                6 hours ago
+              </time>
+            </p>
+          </a>
+        </li>
+      </ul>
+      <a href="#" class="blog__btn btn">View more</a>
+    </div>
+  </section>
+
+  <section class="contacts" id="contact" style="background: #fff url('img/bg-contact.jpg') no-repeat top center / cover">
+    <div class="container contacts__container">
+      <h2 class="contacts__title">Contact</h2>
+      <p class="contacts__text">For new projects, ideas, business or anything you'd like to discuss, contact with me!</p>
+      <div class="contacts__block">
+        <form class="contacts__form" action="#" method="POST">
+          <label for="name" class="visually-hidden">Name</label>
+          <input
+              class="contacts__form__text-field"
+              type="text" name="name" id="name"
+              placeholder="Your name..." required>
+          <label for="email" class="visually-hidden">Email</label>
+          <input class="contacts__form__text-field"
+                 type="email" name="email" id="email"
+                 placeholder="Your email..." required>
+          <label for="tel" class="visually-hidden">Phone number</label>
+          <input class="contacts__form__text-field"
+                 type="tel" name="tel" id="tel"
+                 placeholder="Your phone number..." required>
+          <label for="message" class="visually-hidden">Message</label>
+          <textarea class="contacts__form__text-field
+                           contacts__form__textarea"
+                    name="message" id="message"
+                    placeholder="Your message..."
+                    rows="10" cols="20" required></textarea>
+          <button class="contacts__btn btn" type="submit">Send</button>
+        </form>
+
+        <dl class="contacts__list">
+          <dt class="contacts__list__subtitle">Address</dt>
+          <dd class="contacts__list__desc">
+            <address class="contacts__list__desc--address">
+              123 City name, Street, City, Country
+            </address>
+          </dd>
+          <dt class="contacts__list__subtitle">Email</dt>
+          <dd class="contacts__list__desc">
+            <a href="mailto:cahee@domain.com">cahee@domain.com</a>
+          </dd>
+          <dt class="contacts__list__subtitle">Phone</dt>
+          <dd class="contacts__list__desc">
+            <a href="tel:+0123456789">+012 345 6789</a>
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="footer__container">
+    <h2 class="visually-hidden">Additional information</h2>
+    <p class="footer__copyright">&copy; 2015 Company. All right reserved.</p>
+    <a class="footer__logo logo" href="index.html">Cahee</a>
+    <p class="footer__text">
+      Made with
+      <span class="footer__text__pink">love</span>
+      by Auskteez
+    </p>
+  </div>
+</footer>
+
+<a href="#" class="button-up">
+  <img class="button-up__icon" src="img/scroll.svg" alt="Scroll Button" width="12" height="20">
+</a>
+
+</body>
+
+</html>
